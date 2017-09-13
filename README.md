@@ -2,7 +2,7 @@
 
 A complete example using ES6 JavaScript module without any transpiler! 
 
-The future is now!!
+The future is now!! Open this [live demo](edysegura.github.io/js-es6-module) in Chrome 61+
 
 ## References
 
