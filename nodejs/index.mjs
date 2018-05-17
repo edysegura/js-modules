@@ -1,3 +1,7 @@
-import BMIService from './bmi.service.mjs'
+import BMIService from './bmi.service'
 
-console.log(BMIService.getIndex(76, 1.71))
+const bodyMassIndex = BMIService
+  .getIndex(76, 1.71)
+  .toFixed(2)
+
+console.log(bodyMassIndex)
