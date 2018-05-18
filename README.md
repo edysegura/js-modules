@@ -1,8 +1,8 @@
-# ECMAScript Module
+# ECMAScript Modules
 
-A complete example using ESM - ECMAScript Module without any transpiler!
+A complete example using ESM - ECMAScript Modules without any transpiler!
 
-The future is now!! Open this [live demo](http://edysegura.github.io/js-es6-module) in Chrome 61+
+The future is now!! Open this [live demo](http://edysegura.github.io/js-modules) in your modern browser!
 
 ## References
 
