@@ -6,4 +6,5 @@ The future is now!! Open this [live demo](http://edysegura.github.io/js-modules/
 
 ## References
 
+- [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 - [Compability Table](http://caniuse.com/#search=module)
