@@ -11,4 +11,5 @@ The future is now!! Open this [live demo](http://edysegura.github.io/js-es-modul
 - [Compability Table](http://caniuse.com/#search=module)
 - [Native JavaScript Modules - Talk](https://www.youtube.com/watch?v=RIct51T6ZoA)
 - [Native JavaScript Modules - Slides](https://slides.com/malyw/native-js-modules)
+- [esm - The brilliantly simple, babel-less, bundle-less ECMAScript module loader](https://github.com/standard-things/esm#esm)
 - [Announcing a new Node.js experimental flag](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
