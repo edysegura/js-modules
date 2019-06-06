@@ -1,4 +1,4 @@
-import BMIService from '../../shared/bmi.service.mjs'
+import BMIService from '../../server/shared/bmi.service.js'
 
 export default class BMIController {
   static init() {

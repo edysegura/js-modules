@@ -1,4 +1,4 @@
 
-import BMIController from './js/bmi.controller.js'
+import BMIController from './bmi.controller.js'
 
 BMIController.init()
