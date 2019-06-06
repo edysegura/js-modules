@@ -1,16 +1,10 @@
 {
-  "name": "std-esm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "node -r esm index"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.18.1",
-    "esm": "^3.2.18"
+    "esm": "^3.2.25"
   }
 }
