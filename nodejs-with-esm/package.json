@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "node -r esm index"
+    "start": "node -r esm index"
   },
   "dependencies": {
     "axios": "^0.18.1",
