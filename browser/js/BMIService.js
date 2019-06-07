@@ -3,6 +3,6 @@ export default class BMIService {
     if (typeof weight === 'number' && typeof height === 'number') {
       return weight / (height * height)
     }
-    return null
+    return 0
   }
 }
