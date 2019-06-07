@@ -14,17 +14,16 @@ export default class BMIController {
   }
 
   static calculateBMI(form) {
-    let weight = parseFloat(form.weight.value)
-    let height = parseFloat(form.height.value)
-    let result = 0
+    const weight = parseFloat(form.weight.value)
+    const height = parseFloat(form.height.value)
 
-    result = BMIService.getIndex(weight, height)
+    const result = BMIService.getIndex(weight, height)
 
     BMIController.showResult(result)
   }
 
   static showResult(result) {
     const spanResult = document.querySelector('.result')
-    spanResult.innerHTML = result.toFixed(2)
+    spanResult.textContent = result.toFixed(2)
   }
 }
