@@ -1,11 +1,11 @@
-// Ref.: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta
-
 import { dirname } from 'path'
 
 console.log(import.meta)
 // { url: "file:///home/user/my-module.js" }
+// Ref.: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta
 
-console.log(new URL(import.meta.url))
+const url = new URL(import.meta.url)
+console.log(url)
 // URL {
 //   href: 'file:///home/edysegura/Workspaces/js-es-modules-1/import-meta/index.js',
 //   origin: 'null',
@@ -21,4 +21,5 @@ console.log(new URL(import.meta.url))
 //   hash: ''
 // }
 
-console.log(dirname(import.meta.url))
+console.log(dirname(url.pathname))
+// /Workspaces/js-es-modules/import-meta
