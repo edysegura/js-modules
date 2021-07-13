@@ -1,7 +1,13 @@
-import BMIService from './shared/bmi.service'
+import BMIService from '../shared/bmi.service.js'
+
+const height = 1.71
+const weight = 71
 
 const bodyMassIndex = BMIService
-  .getIndex(78, 1.71)
+  .getIndex(weight, height)
   .toFixed(2)
 
-console.log(bodyMassIndex)
+
+console.log(`Height: ${height}`)
+console.log(`Weight: ${weight}`)
+console.log(`BMI: ${bodyMassIndex}`)

@@ -1,4 +1,4 @@
-import BMIService from '../../server/shared/bmi.service.js'
+import BMIService from '../../shared/bmi.service.js'
 
 export default class BMIController {
   static init() {
@@ -16,15 +16,12 @@ export default class BMIController {
   static calculateBMI(form) {
     let weight = parseFloat(form.weight.value)
     let height = parseFloat(form.height.value)
-    let result = 0;
-
-    result = BMIService.getIndex(weight, height)
-
+    let result = BMIService.getIndex(weight, height)
     BMIController.showResult(result)
   }
 
   static showResult(result) {
     const spanResult = document.querySelector('.result')
-    spanResult.innerHTML = result.toFixed(2)
+    spanResult.textContent = result.toFixed(2)
   }
 }
